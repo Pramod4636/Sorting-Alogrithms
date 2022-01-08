@@ -154,23 +154,7 @@ public class HeapPriorityQueue<K,V> {
         return ans;
     }
 
-    public void heapsort(linkedpositionallist<V> Seq,HeapPriorityQueue<K,V> p_queue) throws IllegalAccessException
-    {
-        int n=Seq.size();
-        for (int i=0;i<n;++i)
-        {
-            K element= Seq.remove(Seq.first());
-            p_queue.insert(element, null);
-        }
-        for(int i=0;i<n;++i)
-        {
-            K element=p_queue.removemin().getkey();
-            Seq.addlast(element);
-        }
-
-
-    }
-
+  
     
 
     
