@@ -154,7 +154,7 @@ public class HeapPriorityQueue<K,V> {
         return ans;
     }
 
-    public void heapsort(linkedpositionallist<K> Seq,HeapPriorityQueue<K,?> p_queue) throws IllegalAccessException
+    public void heapsort(linkedpositionallist<V> Seq,HeapPriorityQueue<K,V> p_queue) throws IllegalAccessException
     {
         int n=Seq.size();
         for (int i=0;i<n;++i)
